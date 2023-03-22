@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T11:37:43.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="p8HUVG9UkxO1tf1fjHsM" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T11:52:23.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="sK8PPqm3UXdnck3iwMox" version="21.0.10" type="github">
   <diagram name="Pàgina-1" id="Pn0JQkNo0I3w2LSZuNBC">
-    <mxGraphModel dx="1120" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="933" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,7 +228,7 @@
           <mxGeometry x="420" y="570" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="9F2lfe1ozfih3_Yw8Zg4-91" value="Préstamo" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="230" y="70" width="160" height="120" as="geometry" />
+          <mxGeometry x="230" y="70" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="9F2lfe1ozfih3_Yw8Zg4-92" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="9F2lfe1ozfih3_Yw8Zg4-91" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -317,8 +317,11 @@
         <mxCell id="9F2lfe1ozfih3_Yw8Zg4-118" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="9F2lfe1ozfih3_Yw8Zg4-117" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BpCtrXZkVxMCLQ6J5Bg-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Socio(&lt;/span&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;DNI&lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, Nombre, Apellidos, Código socio, Dirección, Teléfonos)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Préstamo(&lt;u&gt;Fecha, Código artículo, DNI socio&lt;/u&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Libro(&lt;u&gt;Código&lt;/u&gt;, nombre, año, resumen, nombre autor, país autor, deterioro, num páginas)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Libro(&lt;u&gt;Código&lt;/u&gt;, nombre, año, resumen, nombre autor, país autor, deterioro, num canciones)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Libro(&lt;u&gt;Código&lt;/u&gt;, nombre, año, resumen, nombre autor, país autor, deterioro, duración)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="760" width="500" height="90" as="geometry" />
+        <mxCell id="7BpCtrXZkVxMCLQ6J5Bg-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Socio(&lt;/span&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;DNI&lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, Nombre, Apellidos, Código socio, Dirección, Teléfonos)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Libro(&lt;u&gt;Código&lt;/u&gt;, nombre, año, resumen, nombre autor, país autor, deterioro, num páginas)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;CD(&lt;u&gt;Código&lt;/u&gt;, nombre, año, resumen, nombre autor, país autor, deterioro, num canciones)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Película(&lt;u&gt;Código&lt;/u&gt;, nombre, año, resumen, nombre autor, país autor, deterioro, duración)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Préstamo(&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;Fecha, Código artículo, DNI socio,&amp;nbsp;&lt;/u&gt;fecha devolución) DNI_socio FK Socio, Código_articulo FK Libro,CD,Película&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="760" width="680" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7BpCtrXZkVxMCLQ6J5Bg-5" value="Fecha devolución" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
