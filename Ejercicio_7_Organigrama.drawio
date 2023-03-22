@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T11:40:03.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="Fxcp4_-IABqU91oGBMIW" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T11:40:48.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="rpzOfqDDRpiNq-fz-QHA" version="21.0.10" type="github">
   <diagram name="Página-1" id="8KKt6G1CIv87-5OnyRZG">
     <mxGraphModel dx="1120" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,7 +360,7 @@
         <mxCell id="g7l-g_zQrcLp24NozJ0Z-6" value="Tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="90" y="-240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-4HSlUQp_DWFgShjfEZM-1" value="Empleado(&lt;u&gt;DNI&lt;/u&gt;, ..., , nombre departamento)&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;R&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-4HSlUQp_DWFgShjfEZM-1" value="Empleado(&lt;u&gt;DNI&lt;/u&gt;, ..., , nombre departamento)&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Departamento(&lt;u&gt;Nombre&lt;/u&gt;, DNI coordinador)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="65" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
