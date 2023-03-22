@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T11:43:44.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FvoTIH8VY4wbHv0kxm0i" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T12:14:50.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="WS2wjiLQkMNfYLv6DpOl" version="21.0.10" type="github">
   <diagram name="Página-1" id="8KKt6G1CIv87-5OnyRZG">
-    <mxGraphModel dx="1185" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,26 +360,26 @@
         <mxCell id="g7l-g_zQrcLp24NozJ0Z-6" value="Tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="90" y="-240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0215KpmkWZ9BgJhZ6HZg-1" value="MODELO RELACIONAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0215KpmkWZ9BgJhZ6HZg-1" value="MODELO RELACIONAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="105" y="665" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-4HSlUQp_DWFgShjfEZM-1" value="Empleado(&lt;u&gt;DNI&lt;/u&gt;, ..., , nombre departamento)&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Departamento(&lt;u&gt;Nombre&lt;/u&gt;, DNI coordinador)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="65" width="240" height="30" as="geometry" />
+        <mxCell id="0215KpmkWZ9BgJhZ6HZg-2" value="Empleado(&lt;b&gt;&lt;u&gt;DNI&lt;/u&gt;&lt;/b&gt;, N. seguridad Social, Codigo trabajador, Nombre, Apellidos, Direccion, Telefono)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="115" y="695" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0215KpmkWZ9BgJhZ6HZg-2" value="Empleado(&lt;b&gt;&lt;u&gt;DNI&lt;/u&gt;&lt;/b&gt;, N. seguridad Social, Codigo trabajador, Nombre, Apellidos, Direccion, Telefono)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="695" width="530" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0215KpmkWZ9BgJhZ6HZg-3" value="Departamento(&lt;b&gt;&lt;u&gt;Nombre&lt;/u&gt;&lt;/b&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0215KpmkWZ9BgJhZ6HZg-3" value="Departamento(&lt;b&gt;&lt;u&gt;Nombre&lt;/u&gt;&lt;/b&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="115" y="725" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0215KpmkWZ9BgJhZ6HZg-4" value="Contrato" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0215KpmkWZ9BgJhZ6HZg-4" value="Contrato" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="115" y="755" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0215KpmkWZ9BgJhZ6HZg-5" value="Categoria" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0215KpmkWZ9BgJhZ6HZg-5" value="Categoria" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="115" y="785" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0215KpmkWZ9BgJhZ6HZg-6" value="Nomina" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0215KpmkWZ9BgJhZ6HZg-6" value="Nomina" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fHxPqzr-vJe4UGP5E4fB-1" value="Empleado(&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;DNI&lt;/u&gt;, Nº seguridad Social, Código trabajador, Nombre, Apellidos, Direccion, Telefono&lt;span style=&quot;&quot;&gt;, nombre departamento) &lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Nombre departamento FK Departamento&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Departamento(&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;Nombre&lt;/u&gt;, DNI coordinador)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;DNI&amp;nbsp; coordinador FK empleado&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Contrato(&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;código&lt;/u&gt;, fecha, fecha, dni empleado)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;DNI empleado FK empleado&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="660" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
