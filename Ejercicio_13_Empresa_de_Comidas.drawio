@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T14:02:56.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EE754Gs7MKMN2p2LCznN" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T14:03:54.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="g-2IoL2Gq-FnNYfBNZ8x" version="21.1.0" type="github">
   <diagram name="Página-1" id="swCvai6OrmGdCnfoRgow">
-    <mxGraphModel dx="1838" dy="2133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1838" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,7 +443,7 @@
           <mxGeometry x="290" y="570" width="530" height="160" as="geometry" />
         </mxCell>
         <mxCell id="85sAFToI09iMzSjhjkG4-2" value="LEYENDA&lt;br&gt;&lt;b&gt;&lt;u&gt;Subrallado negrita - PK&lt;br&gt;&lt;/u&gt;Negrita - FK&lt;br&gt;&lt;/b&gt;Else(){normal};" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="-30" width="160" height="70" as="geometry" />
+          <mxGeometry x="650" y="500" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
