@@ -11,36 +11,28 @@ CREATE TABLE socio(
 	telefono VARCHAR(15) NOT NULL
 );
 
-CREATE TABLE libro(
-	codigo INTEGER PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE articulo(
+	codigo INTEGER PRIMARY KEY,
 	nombre VARCHAR(60) NOT NULL,
 	año SMALLINT NOT NULL,
 	resumen VARCHAR(300) NOT NULL,
 	nombre_autor VARCHAR(50) NOT NULL,
 	pais_autor VARCHAR(30) NOT NULL,
-	deterioro VARCHAR(30),
+	deterioro VARCHAR(30)
+);
+
+CREATE TABLE libro(
+	codigo INTEGER PRIMARY KEY references articulo(codigo),
 	num_paginas SMALLINT NOT NULL
 );
 
 CREATE TABLE CD(
-	codigo INTEGER PRIMARY KEY AUTO_INCREMENT,
-	nombre VARCHAR(60) NOT NULL,
-	año SMALLINT NOT NULL,
-	resumen VARCHAR(300) NOT NULL,
-	nombre_autor VARCHAR(50)NOT NULL,
-	pais_autor VARCHAR(30) NOT NULL,
-	deterioro VARCHAR(30),
+	codigo INTEGER PRIMARY KEY references articulo(codigo),
 	num_canciones SMALLINT NOT NULL
 );
 
 CREATE TABLE pelicula(
-	codigo INTEGER PRIMARY KEY AUTO_INCREMENT,
-	nombre VARCHAR(60) NOT NULL,
-	año SMALLINT NOT NULL,
-	resumen VARCHAR(300) NOT NULL,
-	nombre_autor VARCHAR(50) NOT NULL,
-	pais_autor VARCHAR(30) NOT NULL,
-	deterioro VARCHAR(30),
+	codigo INTEGER PRIMARY KEY references articulo(codigo),
 	duracion SMALLINT NOT NULL /* en minutos */
 );
 
@@ -50,9 +42,7 @@ CREATE TABLE prestamo(
 	socio VARCHAR(10) NOT NULL,
 	fecha_devolucion DATE NOT NULL /* YYYY-MM-DD Format */, 
 	PRIMARY KEY (fecha, articulo, socio),
-	FOREIGN KEY (articulo) REFERENCES pelicula(codigo),
-	FOREIGN KEY (articulo) REFERENCES CD(codigo),
-	FOREIGN KEY (articulo) REFERENCES libro(codigo),
+	FOREIGN KEY (articulo) REFERENCES articulo(codigo),
 	FOREIGN KEY (socio) REFERENCES socio(DNI)
 	ON UPDATE CASCADE
 );
